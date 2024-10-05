@@ -1,0 +1,21 @@
+/* add css*/
+
+
+/*branch id select*/
+
+form#userForm #branch_id-error {
+    position: absolute;
+    top: auto;
+    bottom: -20px;
+    left: 15px;
+}
+
+.sl-branch {
+    font-size: .8rem !important;
+    position: absolute !important;
+    top: -26px !important;
+}
+
+ul#userStepper {
+    margin-top: -10px !important;
+}

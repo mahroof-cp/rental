@@ -1,0 +1,47 @@
+.data-list-table {
+    overflow: hidden;
+}
+
+.data-list-table .dataTables_filter label input {
+    width: auto;
+    height: auto;
+    margin-left: .5rem;
+}
+
+.data-list-table .dataTables_length label select {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.data-list-table .dataTable {
+    border-collapse: collapse;
+}
+
+.data-list-table .dataTable th {
+    width: auto !important;
+    padding: 19px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.data-list-table .dataTable tbody td {
+    padding: .8rem .8rem;
+}
+
+.data-list-table .dataTables_paginate {
+    /* Pagination button styling */
+}
+
+.data-list-table .dataTables_paginate .paginate_button {
+    margin-top: .25rem;
+    padding: .25em .65em;
+}
+
+.data-list-table .dataTables_paginate .paginate_button.current,
+.data-list-table .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #3f51b5;
+    border-radius: 4px;
+    background: #3f51b5;
+    box-shadow: 0 0 8px 0 #3f51b5;
+}
