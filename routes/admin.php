@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Support\Facades\Route;
 
 
+
 Route::controller(Auth\LoginController::class)->middleware('guest:admin')->name('admin_')->group(function () {
     Route::get('/login', 'showLoginForm')->name('login');
     Route::post('/login', 'login');
